@@ -219,7 +219,7 @@ function Hero() {
           className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-3.5 sm:px-4 py-1.5 mb-4 sm:mb-6 text-xs sm:text-[13px] font-semibold text-slate-800 shadow-sm"
         >
           <span className="flex h-2 w-2 rounded-full bg-[#FF5F57]" />
-          <span>What is Arrivd?</span>
+          <span>What is Arrived?</span>
         </motion.div>
 
         {/* Main Heading */}
