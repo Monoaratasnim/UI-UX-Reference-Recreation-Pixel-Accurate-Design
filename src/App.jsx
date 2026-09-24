@@ -3,6 +3,7 @@ import RideTripDetails from './components/RideTripDetails.jsx'
 import ArtShowcase from './components/ArtShowcase.jsx'
 import TravelLanding from './components/TravelLanding.jsx'
 import FinanceLanding from './components/FinanceLanding.jsx'
+import RealEstateLanding from './components/RealEstateLanding.jsx'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Route path="/art-showcase" element={<ArtShowcase />} />
       <Route path="/travel-landing" element={<TravelLanding />} />
       <Route path="/finance-landing" element={<FinanceLanding />} />
+      <Route path="/real-estate-landing" element={<RealEstateLanding />} />
       <Route path="*" element={<Navigate to="/travel-landing" replace />} />
     </Routes>
   )
