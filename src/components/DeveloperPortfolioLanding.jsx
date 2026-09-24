@@ -118,13 +118,13 @@ export default function DeveloperPortfolioLanding() {
               Next-gen developer portfolio that helps you showcase your projects, skills, and experience. Personalize it by an evergrowing collection of building blocks and analyse your growth.
             </p>
 
-            {/* Buttons side by side with flex-1 and equal sizing across all devices */}
-            <div className="flex flex-row items-stretch gap-3 sm:gap-4 pt-2">
+            {/* Perfectly matched button container */}
+            <div className="flex flex-row items-center gap-4 pt-2">
               <motion.a
                 href="#get-started"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="flex-1 flex items-center justify-center rounded-xl bg-[#27272a] px-4 sm:px-7 py-3.5 sm:py-4 text-xs sm:text-sm font-medium text-white shadow-md hover:bg-zinc-800 transition-colors text-center"
+                className="inline-flex items-center justify-center rounded-2xl bg-[#1c1c1e] px-7 py-4 text-sm font-medium text-white shadow-sm hover:bg-zinc-800 transition-colors text-center"
               >
                 Get started
               </motion.a>
@@ -133,12 +133,12 @@ export default function DeveloperPortfolioLanding() {
                 href="#experience-future"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="flex-1 flex items-center justify-center gap-2 rounded-xl border border-zinc-200 bg-white px-3 sm:px-6 py-3.5 sm:py-4 text-xs sm:text-sm font-semibold text-zinc-700 shadow-sm hover:bg-zinc-50 transition-colors text-center"
+                className="inline-flex items-center justify-center gap-3 rounded-2xl border border-zinc-200/80 bg-white px-6 py-4 text-sm font-medium text-zinc-800 shadow-sm hover:bg-zinc-50 transition-colors text-center"
               >
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-zinc-900 text-white">
-                  <Play className="h-2.5 w-2.5 fill-current ml-0.5" />
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#1c1c1e] text-white">
+                  <Play className="h-3 w-3 fill-current ml-0.5" />
                 </span>
-                <span className="truncate">Experience the future</span>
+                <span>Experience the future</span>
               </motion.a>
             </div>
 
